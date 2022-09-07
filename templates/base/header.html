@@ -1,0 +1,82 @@
+{% load static %}
+
+<head>
+  <title>Portal Data Kemendikbud</title>
+  <meta charset="utf-8" />
+  <meta
+    name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+
+  <linkvhref="https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800&display=swap" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css?family=Lora:400,400i,700,700i&display=swap" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css?family=Amatic+SC:400,700&display=swap" rel="stylesheet"/>
+
+  <link rel="stylesheet" href="{% static 'css/open-iconic-bootstrap.min.css' %}">
+  <link rel="stylesheet" href="{% static 'plugins/bootstrap/css/bootstrap.min.css' %}">
+
+  <link rel="stylesheet" href="{% static 'plugins/animate-css/animate.css' %}">
+  <link rel="stylesheet" href="{% static 'plugins/fontawesome/css/all.css' %}">
+  <link rel="stylesheet" href="{% static 'plugins/fonts/Pe-icon-7-stroke.css' %}">
+
+  <link rel="stylesheet" href="{% static 'plugins/themify/css/themify-icons.css' %}">
+
+  <link rel="stylesheet" href="{% static 'plugins/slick-carousel/slick/slick.css' %}">
+
+  <link rel="stylesheet" href="{% static 'plugins/slick-carousel/slick/slick-theme.css' %}">
+  <link rel="stylesheet" href="{% static 'css/style.css' %}" >
+
+  <link rel="stylesheet" href="{% static 'scss/_typography.scss' %}" >
+  <link rel="stylesheet" href="{% static 'scss/icomoon.css' %}" >
+  <link rel="stylesheet" href="{% static 'scss/_responsive.scss' %}" >
+  <link rel="stylesheet" href="{% static 'scss/style.css' %}" >
+</head>
+<style type="text/css">
+  .c-details span {
+    font-weight: 300;
+    font-size: 13px;
+  }
+
+ 
+
+  .icon {
+    width: 50px;
+    height: 50px;
+    background-color: #eee;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 39px
+}
+.card-stat {
+    border-top: 4px solid #ffc107;
+}
+
+.dropdown-submenu {
+  position: relative;
+}
+
+.dropdown-submenu{
+    position: relative;
+}
+.dropdown-submenu a::after{
+    transform: rotate(-90deg);
+    position: absolute;
+    right: 3px;
+    top: 40%;
+}
+.dropdown-submenu:hover .dropdown-menu, .dropdown-submenu:focus .dropdown-menu{
+    display: flex;
+    flex-direction: column;
+    position: absolute !important;
+    margin-top: -30px;
+    left: 100%;
+}
+@media (max-width: 992px) {
+    .dropdown-menu{
+        width: 50%;
+    }
+    .dropdown-menu .dropdown-submenu{
+        width: auto;
+    }
+}
+</style>

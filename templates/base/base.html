@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  {% load static %}
+  <!--header-->
+  {% include 'base/header.html' %}
+  <!--end header-->
+
+  <body id="top-header">
+    <!--navbar-->
+    {% include 'base/navbar.html' %}  
+    <!--navbar end-->
+
+    <!--isi-->
+    {% block content %}
+
+    {% endblock %}
+
+    <!--footer-->
+    {% include 'base/footer.html' %}
+
+    <!--js file-->
+    {% include 'base/js.html' %}
+  </body>
+</html>
